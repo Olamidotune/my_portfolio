@@ -1,4 +1,7 @@
+import 'dart:js' as js;
+
 import 'package:flutter/material.dart';
+
 import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/sns_links.dart';
 import 'package:my_portfolio/widgets/contact_section.dart';
@@ -7,9 +10,8 @@ import 'package:my_portfolio/widgets/main_mobile.dart';
 import 'package:my_portfolio/widgets/projects_section.dart';
 import 'package:my_portfolio/widgets/skills_desktop.dart';
 import 'package:my_portfolio/widgets/skills_mobile.dart';
-import 'dart:js' as js;
-import '../constants/size.dart';
 
+import '../constants/size.dart';
 import '../widgets/drawer_mobile.dart';
 import '../widgets/footer.dart';
 import '../widgets/header_desktop.dart';

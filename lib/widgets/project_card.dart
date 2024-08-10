@@ -1,8 +1,10 @@
+import 'dart:js' as js;
+
 import 'package:flutter/material.dart';
+
 import 'package:my_portfolio/utils/project_utils.dart';
 
 import '../constants/colors.dart';
-import 'dart:js' as js;
 
 class ProjectCardWidget extends StatelessWidget {
   const ProjectCardWidget({

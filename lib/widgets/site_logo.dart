@@ -13,11 +13,11 @@ class SiteLogo extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: const Text(
-        "AK",
+        "EO",
         style: TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,
-          decoration: TextDecoration.underline,
+ 
           color: CustomColor.yellowSecondary,
         ),
       ),
